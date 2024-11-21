@@ -27,7 +27,17 @@ docker run  \
  #### Setup a Realm
 
 Log in to Keycloak Admin Console: http://localhost:8080/admin. \
+
+![keycloak-console](https://github.com/user-attachments/assets/be64d4c2-0c07-4a8b-a071-13edd8368a5f)
+
 Create a new realm (e.g., actuator-secure).
+
+![keycloak-console](https://github.com/user-attachments/assets/5b9daa63-7d80-41c5-8b89-fd86f66fbb45)
+
+![realm-create](https://github.com/user-attachments/assets/ae392cab-72b9-42ce-bd29-b4482ca77941)
+
+![realm-create-3](https://github.com/user-attachments/assets/d286706a-9b6a-4327-bb8e-576417ea103f)
+
 
 #### Setup a Client
 
