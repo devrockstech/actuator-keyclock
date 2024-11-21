@@ -1,7 +1,7 @@
 # Securing Actuator Endpoints 
 
-## Setup Keycloak 
-
+<details>
+  <summary>Setup Keycloak</summary>
 
 ### Generate Certificates
 
@@ -39,3 +39,4 @@ Navigate to Clients and click Create.
   
 Save and generate a client secret from the Credentials tab. Save this value for later.
 
+</details>
