@@ -31,10 +31,10 @@ Create a new realm (e.g., actuator-secure).
 
 #### Setup a Client
 
-Navigate to Clients and click Create. \
+Navigate to Clients and click Create. 
 
-- Client ID: service-a-client \
-- Client Protocol: openid-connect \
-- Access Type: confidential \
+- Client ID: service-a-client 
+- Client Protocol: openid-connect 
+- Access Type: confidential 
 Save and generate a client secret from the Credentials tab. Save this value for later.
 
