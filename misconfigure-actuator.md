@@ -1,7 +1,7 @@
 # Misconfigured Actuator Endpoints
 
 ## Exposing All Endpoints in Production
-``bash
+```bash
 management.endpoints.web.exposure.include=*
 ```
 Exposing all Actuator endpoints publicly can be a serious security risk. \
@@ -9,7 +9,7 @@ Actuator endpoints like ```/actuator/env, /actuator/beans, and /actuator/mapping
 
 ## Disabling Security on Actuator Endpoints
 Setting up your security configuration to allow unrestricted access to all Actuator endpoints:
-```
+```bash
 http
     .authorizeHttpRequests((requests) -> requests
         .requestMatchers("/actuator/**").permitAll()
