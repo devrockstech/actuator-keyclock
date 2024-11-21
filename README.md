@@ -1,6 +1,7 @@
 # Securing Actuator Endpoints 
 
-## Setup Keycloak
+## Setup Keycloak ![image](https://github.com/user-attachments/assets/e498f833-4c02-4d50-b815-acbc7f9e8185)
+
 
 ### Generate Certificates
 
