@@ -1,4 +1,4 @@
-# Actuator Secured
+# Secured Actuator
 
 ## Exposing Only Essential Endpoints
 Restrict Actuator endpoint exposure to only necessary endpoints, such as health and info, which can be safely exposed for monitoring purposes.
