@@ -1,6 +1,6 @@
 # Securing Actuator Endpoints 
 
-## Setup Keycloak ![image](https://github.com/user-attachments/assets/e498f833-4c02-4d50-b815-acbc7f9e8185)
+## Setup Keycloak 
 
 
 ### Generate Certificates
@@ -22,3 +22,9 @@ docker run  \
     -v $PWD/server.key.pem:/opt/keycloak/conf/server.key.pem   \
     -p 8443:8443   quay.io/keycloak/keycloak:latest   start-dev
 ```
+ This should open up the admin console of keycloak
+
+ #### Setup a Realm
+
+Log in to Keycloak Admin Console: http://localhost:8080/admin.
+Create a new realm (e.g., actuator-secure).
