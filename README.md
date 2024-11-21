@@ -24,11 +24,11 @@ docker run  \
 ```
  This should open up the admin console of keycloak
 
- #### Setup a Realm
-
-Log in to Keycloak Admin Console: http://localhost:8080/admin. \
-
 ![keycloak-console](https://github.com/user-attachments/assets/be64d4c2-0c07-4a8b-a071-13edd8368a5f)
+ 
+#### Setup a Realm
+
+Log in to Keycloak Admin Console: https://62.138.26.145:8443/ \
 
 Create a new realm (e.g., actuator-secure).
 
