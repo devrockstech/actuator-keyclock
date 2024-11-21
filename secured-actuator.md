@@ -25,12 +25,13 @@ public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Excepti
 
 ## Environment-Specific Configurations
 Configure exposure and security settings based on the environment. For example, limit exposure in production while allowing broader access in development.
-- application-prod.properties:
+
+application-prod.properties:
   ```bash
 management.endpoints.web.exposure.include=health,info
 ```
 
-- application-dev.properties:
+application-dev.properties:
 ```bash
 management.endpoints.web.exposure.include=*
 ```
