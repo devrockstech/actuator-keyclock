@@ -29,6 +29,7 @@ Configure exposure and security settings based on the environment. For example, 
   ```bash
 management.endpoints.web.exposure.include=health,info
 ```
+
 - application-dev.properties:
 ```bash
 management.endpoints.web.exposure.include=*
